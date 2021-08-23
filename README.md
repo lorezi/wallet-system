@@ -50,7 +50,7 @@ $ npm test
 
 ## API Endpoints
 
-#### Base Url - `http://localhost:{PORT}/`
+#### Base Url - `http://localhost:{PORT}/api/v1`
 
 #### Wallet System
 
