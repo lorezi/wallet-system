@@ -1,9 +1,70 @@
-# SM-Ecommerce Multi Warehouse Service
+# Wallet System Documentation
 
-## End Points
+Wallet system implementation.
 
-### Products
+## Documentation
 
-[GET Products](https://sm-multi-warehouse.herokuapp.com/products)
+API Documentation [here]()
 
-[POST Products](https://sm-multi-warehouse.herokuapp.com/products)
+---
+
+**API** built with Node + Express + Postgres + Sequelize + Jest.
+
+Written in TypeScript.
+
+---
+
+## Start Development
+
+Kindly clone the repo ``
+
+### Setup
+
+Create a .env file in the root directory and add the following properties
+
+```markdown
+PORT=?
+DATABASE_USERNAME=?
+DATABASE_PASSWORD=?
+DATABASE_NAME=?
+DB_HOST=?
+DB_PORT=?
+```
+
+### Installation
+
+To install the necessary packages, in your root folder directory kindly run
+
+```bash
+# Install dependencies
+$ npm install
+
+# Start the app
+$ npm start
+
+# Run test
+$ npm test
+```
+
+---
+
+## API Endpoints
+
+#### Base Url - `http://localhost:{PORT}/`
+
+#### Wallet System
+
+- `POST /signup`
+- `PATCH /verify `
+- `PATCH /generate`
+- `PATCH /transfer`
+
+## TODO
+
+- Login
+- Jwt authentication
+- Password encryption
+
+## 🎩 Author
+
+- Lawrence 😁😁😁
