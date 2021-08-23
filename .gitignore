@@ -1,0 +1,10 @@
+node_modules
+.vscode/
+.eslintcache
+build
+.dbdata
+jest_html_reporters.html
+.env
+.sample.env
+npm-debug.log
+.DS_Store
