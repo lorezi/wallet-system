@@ -4,7 +4,7 @@ Wallet system implementation.
 
 ## Documentation
 
-API Documentation [here]()
+API Documentation [here](https://documenter.getpostman.com/view/17190443/TzzDKFSf)
 
 ---
 
@@ -64,6 +64,7 @@ $ npm test
 - Login
 - Jwt authentication
 - Password encryption
+- Protected routes
 
 ## 🎩 Author
 
